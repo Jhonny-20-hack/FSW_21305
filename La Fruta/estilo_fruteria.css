@@ -1,0 +1,212 @@
+body {
+    font-family: 'Segoe UI', 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f6fdf4;
+}
+
+header {
+    background-color:honeydew;
+    text-align: left;
+    padding: 2px solid #cce7c1;
+    border-bottom: 2px solid #dcefd9;
+    font-size: 30px;
+}
+
+.logo_cabecera {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.logo_cabecera h1 {
+    font-size: 2em;
+    margin: 0;
+    color: #2f6130;
+}
+
+.logo {
+    width: 50px;
+    height: 50px;
+    object-fit: contain;
+}
+
+
+nav {
+    background-color: #d6f5d6;
+    padding: 10px 0;
+    border-top: 0px solid #b4e2b4;
+}
+
+nav ul {
+    list-style: none;
+    display:flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0;
+    padding: 0;
+}
+
+
+#seccion-historia article {
+    background-color: #f9f9f9;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+}
+
+section#seccion-objetivo {
+    background-color: rgb(255, 254, 240);
+    padding: 10px;
+}
+
+section#seccion-contacto {
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 0.9em;
+    margin: 0;
+    padding: 10px;
+    background-color: #f2f2f2;
+    text-align: center;
+    color: #555;
+}
+
+section#seccion-frutas {
+    background-color: #fff5f0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+article#articulo1 {
+    grid-column: 1 / -1;
+    background-color:#ffe8e0; /* un tono suave para destacar */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#seccion-vegetales {
+    background-color: #f3fdf3;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+article#articulo1_1 {
+    grid-column: 1 / -1;
+    background-color:#e6f4e6; /* un tono suave para destacar */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+section#seccion-frutos_secos {
+    background-color: #fcf7f0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+article#articulo1_2 {
+    grid-column: 1 / -1;
+    background-color: #fff4e6; /* un tono suave para destacar */
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+nav li {
+    margin-bottom: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 25px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.05);
+    font-family: 'Segoe UI', sans-serif;
+}
+
+form label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+    color: #333;
+}
+
+form textarea {
+    resize: vertical;
+    min-height: 100px;
+}
+
+form button[type="submit"] {
+    color: green;
+    opacity: 0.9;
+}
+
+form button[type="reset"] {
+    color: red;
+    opacity: 0.9;
+}
+
+form input[type="text"],
+form input[type="email"],
+form input[type="number"],
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 18px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+    box-sizing: border-box;
+}
+
+form button[type="submit"],
+form button[type="reset"] {
+    padding: 10px 20px;
+    font-size: 1em;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contador {
+    text-align: right;
+    font-size: 0.9em;
+    color: #666;
+    margin-top: -10px;
+    margin-bottom: 15px;
+}
+
+.obligatorio{
+    color: red;
+}
