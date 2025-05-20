@@ -1,0 +1,76 @@
+body{
+    margin: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+header{
+    background: linear-gradient(to right, red, blue);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+.logo{
+    font-size: 24px;
+    font-weight: bold;  
+}
+header img{
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    position: relative;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: inline-block;
+    transition: backgroud-color 0.5s;
+}
+nav ul ti a:hover{
+    background-color: #f15b00;
+    border-radius: 4px;
+}
+.Contenido{
+    padding: 0px;
+}
+.Contenido p{
+    text-align: justify;
+    background-color: white;
+}
+.galeria{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.item{
+    width: 120px;
+    text-align: center;
+}
+.item img{
+    height: 160px;
+}
+.item p{
+    text-align: center;
+}
+.item button{
+    background-color: crimson;
+    border-radius: 5px;
+    color: white;
+    border: none;
+}
+footer .line{
+    height: 4px;
+    background: linear-gradient(to right,red,blue);
+}
+footer{
+    font-size: 11px;
+    color: white;
+    background-color: rgb(4, 4, 48);
+}
