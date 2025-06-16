@@ -1,0 +1,124 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: skyblue;
+  color: #333;
+}
+
+header {
+  background-color: #5e0099;
+  color: white;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.menu {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 10px;
+  background-color: #cc0055;
+  border-radius: 20px;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+}
+
+.menu li {
+  margin: 0.5rem;
+}
+
+.menu button {
+  background-color: #cc7a00;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.menu button:hover {
+  background-color: #0077aa;
+  transform: scale(1.05);
+}
+
+.ejercicio {
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 700px;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  position: relative;
+  color: #fff;
+  overflow: hidden;
+}
+
+.fondo1 { background-image: url('/IMAGENES/descarga.jpg'); }
+.fondo2 { background-image: url('/IMAGENES/descarga (5).jpg'); }
+.fondo3 { background-image: url('/IMAGENES/descarga\ \(6\).jpg'); }
+.fondo4 { background-image: url('/IMAGENES/images (7).jpg'); }
+.fondo5 { background-image: url('/IMAGENES/descarga (3).jpg'); }
+
+.fondo1, .fondo2, .fondo3, .fondo4, .fondo5 {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+input[type="number"],
+textarea {
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  font-size: 1rem;
+}
+
+button {
+  background-color: #28a745;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #218838;
+  transform: translateY(-2px);
+}
+
+div[id^="resultado"] {
+  margin-top: 1rem;
+  padding: 10px;
+  background-color: #ffffffb3;
+  border-left: 4px solid #2ecc71;
+  font-weight: bold;
+  border-radius: 6px;
+  font-size: 1rem;
+  color: #000;
+}
+
+.oculto {
+  display: none;
+}
+
+.footer-contenido {
+  background-color: #5e0099;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+  border-top: 4px solid #cc0055;
+  font-weight: bold;
+  border-radius: 12px 12px 0 0;
+}
